@@ -1,0 +1,117 @@
+### Java ###
+# Compiled class files
+*.class
+
+# Log files
+*.log
+logs/
+
+# Package files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Virtual machine crash logs
+hs_err_pid*
+
+### Maven ###
+target/
+.mvn/
+mvnw
+mvnw.cmd
+
+### Gradle ###
+.gradle/
+build/
+gradle/
+gradlew
+gradlew.bat
+
+### Spring Boot ###
+**/application-local.properties
+**/application-dev.properties
+**/application-prod.properties
+**/application-*.yml
+**/application-*.yaml
+**/src/main/resources/secrets.properties
+**/src/main/resources/credentials.properties
+
+# Spring Boot build output
+spring-boot-*.jar
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+### Eclipse ###
+.classpath
+.project
+.settings/
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+.apt_generated
+.factorypath
+.springBeans
+.sts4-cache
+
+### VS Code ###
+.vscode/
+.code-workspace
+
+### NetBeans ###
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+### OS Files ###
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+### Node.js (if frontend services are included) ###
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+
+### Docker ###
+.docker/
+docker-compose.override.yml
+
+### Local dev files ###
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+### H2 Database ###
+*.db
+*.mv.db
+*.trace.db
+
